@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Another FOAF example</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="jquery-1.7.1.min.js"> </script>
+		<script src="rdf-parser-0.34.js"> </script>
+		<script src="foaf-process.js"> </script>
+	</head>
+	<body>
+		<section>
+			<p class="first">Hi stranger,</p>
+			<p>
+			this is an example of how you can represent yourself effortlessly through your foaf id.
+			Just put in the following input box your 'foaf.rdf' uri and see what happens ;-)
+			</p>
+		</section>
+		<form id="foafForm" action="#">
+			<input type="text" id="foafBox" placeholder="http://www.wilky.it/foaf.rdf" required />
+			<button type="submit" id="submit" onClick="show ();">Show me</button>
+		</form>
+	</body>
+</html>

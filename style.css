@@ -1,0 +1,72 @@
+section {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	font-family: 'times';
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+.title {
+	font-style: italic;
+	color: #808080;
+	font-size: 1.2em;
+}
+
+p.first {
+	font-style: italic;
+	color: #808080;
+}
+
+#foafForm {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 420px;
+}
+
+#foafBox {
+	width: 300px;
+}
+
+.person {
+	width: 650px;
+	height: 250px;
+	resize:both;
+	overflow: auto;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+img {
+	width: 96px;
+	height: 96px;
+}
+
+.left {
+	float: left;
+}
+
+figcaption {
+	text-align: center;
+	padding-top: 2px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+label {
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.2em;
+	color: #808080;
+	font-style: italic;
+}
+
+hr {
+	width: 70%;
+}
